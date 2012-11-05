@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev11_Net45_Mvc4_WebAPI", "Dev11_Net45_Mvc4_WebAPI\Dev11_Net45_Mvc4_WebAPI.csproj", "{B1600151-3582-4289-8CA8-86D34F5A5EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev11_Net45_Mvc4_WebAPI.Tests", "Dev11_Net45_Mvc4_WebAPI.Tests\Dev11_Net45_Mvc4_WebAPI.Tests.csproj", "{DECF1086-62D7-4F9B-A2AF-E702B734E46E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1600151-3582-4289-8CA8-86D34F5A5EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1600151-3582-4289-8CA8-86D34F5A5EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1600151-3582-4289-8CA8-86D34F5A5EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1600151-3582-4289-8CA8-86D34F5A5EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DECF1086-62D7-4F9B-A2AF-E702B734E46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECF1086-62D7-4F9B-A2AF-E702B734E46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECF1086-62D7-4F9B-A2AF-E702B734E46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECF1086-62D7-4F9B-A2AF-E702B734E46E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
