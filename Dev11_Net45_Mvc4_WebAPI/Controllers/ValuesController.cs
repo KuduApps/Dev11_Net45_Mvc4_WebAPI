@@ -12,18 +12,19 @@ namespace Dev11_Net45_Mvc4_WebAPI.Controllers
         // GET api/values
         public IQueryable<string> Get()
         {
-            return new string[] { "xkcd1", "xkcd2" }.AsQueryable();
+            return new string[] { "Hello", "World" }.AsQueryable();
         }
 
         // GET api/values/5
         public string Get(int id)
         {
-            return "xkcd3";
+            return "Hello World!";
         }
 
         // POST api/values
-        public void Post([FromBody]string value)
+        public string Post([FromBody]string value)
         {
+            return value;
         }
 
         // PUT api/values/5

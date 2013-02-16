@@ -25,8 +25,8 @@ namespace Dev11_Net45_Mvc4_WebAPI.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
             Assert.AreEqual(2, result.Count());
-            Assert.AreEqual("value1", result.ElementAt(0));
-            Assert.AreEqual("value2", result.ElementAt(1));
+            Assert.AreEqual("Hello", result.ElementAt(0));
+            Assert.AreEqual("World", result.ElementAt(1));
         }
 
         [TestMethod]
@@ -39,7 +39,7 @@ namespace Dev11_Net45_Mvc4_WebAPI.Tests.Controllers
             string result = controller.Get(5);
 
             // Assert
-            Assert.AreEqual("value", result);
+            Assert.AreEqual("Hello World!", result);
         }
 
         [TestMethod]
@@ -49,9 +49,10 @@ namespace Dev11_Net45_Mvc4_WebAPI.Tests.Controllers
             ValuesController controller = new ValuesController();
 
             // Act
-            controller.Post("value");
+            var result = controller.Post("value");
 
             // Assert
+            Assert.AreEqual("value", result);
         }
 
         [TestMethod]
